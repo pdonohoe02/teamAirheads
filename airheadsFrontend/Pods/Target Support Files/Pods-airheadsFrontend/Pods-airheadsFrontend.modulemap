@@ -1,0 +1,6 @@
+framework module Pods_airheadsFrontend {
+  umbrella header "Pods-airheadsFrontend-umbrella.h"
+
+  export *
+  module * { export * }
+}
