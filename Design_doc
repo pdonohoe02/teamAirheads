@@ -1,1 +1,25 @@
-What is our project
+##What is our project
+
+Make a baseline implementation that allows people to request a ride
+to the airport or school event in advance
+
+Also allows people to go from off campus back onto campus
+
+Have the ability to ascociate yourself with certain student groups
+and filter by men/women
+
+Have ability to change the number of people you are looking for
+
+Return how much carbon a user is saving by ridesharing
+
+##Things we need to build (functionality and language)
+
+#Frontend
+
+
+
+#Backend
+
+
+
+##Steps to build things
