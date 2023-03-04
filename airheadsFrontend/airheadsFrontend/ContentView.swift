@@ -19,13 +19,13 @@ struct ContentView: View {
     var body: some View {
         
         TabView(selection: $selection) {
-            ProfileHome()
+            RequestRideHome()
                 .tabItem {
                     Label("Request Ride", systemImage: "car.fill")
                 }
                 .tag(Tab.requestRide)
 
-            ProfileHome()
+            MessageHome()
                 .tabItem {
                     Label("Message", systemImage: "message.fill")
                 }
