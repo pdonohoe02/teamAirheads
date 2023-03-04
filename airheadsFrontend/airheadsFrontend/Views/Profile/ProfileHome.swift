@@ -28,14 +28,23 @@ struct ProfileHome: View {
                     Text("Name Here")
                         .font(.title)
                         .fontWeight(.bold)
-                    
+                        .offset(x: 0, y: -100)
                 }
+                AsyncImage(url: /*@START_MENU_TOKEN@*/URL(string: "https://example.com/icon.png")/*@END_MENU_TOKEN@*/)
                 VStack{
                     Text("Preferences")
                         .font(.headline)
                         .fontWeight(.bold)
-                        .offset(x: 30, y: 0)
+                        .offset(x: -125, y: 0)
                 }
+                Menu("Student Group")
+                    {
+                    Text("Fleming House")
+                    Text("Avery House")
+                    Text("Bechtel")
+                }
+                    .offset(x: 20, y: 0)
+                
                 
                 .toolbar {
                             EditButton()
@@ -45,6 +54,8 @@ struct ProfileHome: View {
                        alignment: .leading)
                 
                 
+                
+                LinearGradient(gradient: /*@START_MENU_TOKEN@*/Gradient(colors: [Color.red, Color.blue])/*@END_MENU_TOKEN@*/, startPoint: .topLeading, endPoint: .bottomTrailing)
                 
             }
         }

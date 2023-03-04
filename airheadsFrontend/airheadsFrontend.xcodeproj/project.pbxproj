@@ -14,6 +14,7 @@
 		29925F3629B31B910004064B /* ProfileHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F3529B31B910004064B /* ProfileHome.swift */; };
 		29925F3A29B31E660004064B /* RequestRideHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F3929B31E660004064B /* RequestRideHome.swift */; };
 		29925F3C29B31E890004064B /* MessageHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F3B29B31E890004064B /* MessageHome.swift */; };
+		F4DECA0F29B32F68008B7E88 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DECA0E29B32F68008B7E88 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		29925F3529B31B910004064B /* ProfileHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHome.swift; sourceTree = "<group>"; };
 		29925F3929B31E660004064B /* RequestRideHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRideHome.swift; sourceTree = "<group>"; };
 		29925F3B29B31E890004064B /* MessageHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHome.swift; sourceTree = "<group>"; };
+		F4DECA0E29B32F68008B7E88 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				29925F3529B31B910004064B /* ProfileHome.swift */,
+				F4DECA0E29B32F68008B7E88 /* Storyboard.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			files = (
 				29925F2B29B319F80004064B /* Preview Assets.xcassets in Resources */,
 				29925F2829B319F80004064B /* Assets.xcassets in Resources */,
+				F4DECA0F29B32F68008B7E88 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
