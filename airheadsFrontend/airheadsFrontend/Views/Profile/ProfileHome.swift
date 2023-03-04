@@ -36,8 +36,16 @@ struct ProfileHome: View {
                         .fontWeight(.bold)
                         .offset(x: 30, y: 0)
                 }
+                
+                .toolbar {
+                            EditButton()
+                        }
+                
                 .frame(maxWidth:.infinity, maxHeight: .infinity,
                        alignment: .leading)
+                
+                
+                
             }
         }
     }
