@@ -47,6 +47,7 @@ struct ProfileHome: View {
                 
                 
                 .toolbar {
+                            
                             EditButton()
                         }
                 
