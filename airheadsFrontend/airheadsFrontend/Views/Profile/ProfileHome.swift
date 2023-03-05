@@ -1,10 +1,11 @@
+
+
 //
 //  ProfileHome.swift
 //  Rideshare
 //
 //  Created by Patrick Donohoe on 3/3/23.
 //
-
 import SwiftUI
 
 struct ProfileHome: View {
@@ -30,7 +31,11 @@ struct ProfileHome: View {
                         .fontWeight(.bold)
                         .offset(x: 0, y: -100)
                 }
-                AsyncImage(url: /*@START_MENU_TOKEN@*/URL(string: "https://example.com/icon.png")/*@END_MENU_TOKEN@*/)
+                AsyncImage(url: URL(string: "https://example.com/icon.png"))
+                    .frame(width: 200, height: 200)
+                    .offset(x: 0, y: -50)
+                LinearGradient(gradient: Gradient(colors: [Color.green, Color.yellow]), startPoint: .topLeading, endPoint: .bottomTrailing)
+
                 VStack{
                     Text("Preferences")
                         .font(.headline)
@@ -56,7 +61,6 @@ struct ProfileHome: View {
                 
                 
                 
-                LinearGradient(gradient: /*@START_MENU_TOKEN@*/Gradient(colors: [Color.red, Color.blue])/*@END_MENU_TOKEN@*/, startPoint: .topLeading, endPoint: .bottomTrailing)
                 
             }
         }
