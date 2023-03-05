@@ -16,12 +16,14 @@
 		1A12DEC329B3406A00CF6C10 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1A12DEC229B3406A00CF6C10 /* FirebaseInAppMessagingSwift-Beta */; };
 		1A12DEC529B3406A00CF6C10 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1A12DEC429B3406A00CF6C10 /* FirebaseMessaging */; };
 		1A12DEC729B344CE00CF6C10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A12DEC629B344CE00CF6C10 /* GoogleService-Info.plist */; };
-		1A12DECF29B4054800CF6C10 /* ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DECE29B4054800CF6C10 /* ride.swift */; };
-		1A12DED129B406A600CF6C10 /* rideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DED029B406A600CF6C10 /* rideViewModel.swift */; };
+		1A12DED529B441E100CF6C10 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DED429B441E100CF6C10 /* File.swift */; };
+		1A12DED729B4421600CF6C10 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DED629B4421600CF6C10 /* ProfileView.swift */; };
+		1A12DED929B4423300CF6C10 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DED829B4423300CF6C10 /* SettingsView.swift */; };
+		1A12DEDB29B4426100CF6C10 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DEDA29B4426100CF6C10 /* UserSettings.swift */; };
+		1A12DEDD29B4451400CF6C10 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A12DEDC29B4451400CF6C10 /* Media.xcassets */; };
+		1A12DEDF29B4474300CF6C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A12DEDE29B4474300CF6C10 /* Assets.xcassets */; };
 		29925F2429B319F70004064B /* airheadsFrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F2329B319F70004064B /* airheadsFrontendApp.swift */; };
 		29925F2629B319F70004064B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F2529B319F70004064B /* ContentView.swift */; };
-		29925F2829B319F80004064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29925F2729B319F80004064B /* Assets.xcassets */; };
-		29925F2B29B319F80004064B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29925F2A29B319F80004064B /* Preview Assets.xcassets */; };
 		29925F3629B31B910004064B /* ProfileHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F3529B31B910004064B /* ProfileHome.swift */; };
 		29925F3A29B31E660004064B /* RequestRideHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F3929B31E660004064B /* RequestRideHome.swift */; };
 		29925F3C29B31E890004064B /* MessageHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F3B29B31E890004064B /* MessageHome.swift */; };
@@ -31,13 +33,15 @@
 /* Begin PBXFileReference section */
 		1A12DEC629B344CE00CF6C10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "airheadsFrontend/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1A12DEC929B3EF5500CF6C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1A12DECE29B4054800CF6C10 /* ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride.swift; sourceTree = "<group>"; };
-		1A12DED029B406A600CF6C10 /* rideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rideViewModel.swift; sourceTree = "<group>"; };
+		1A12DED429B441E100CF6C10 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		1A12DED629B4421600CF6C10 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1A12DED829B4423300CF6C10 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1A12DEDA29B4426100CF6C10 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		1A12DEDC29B4451400CF6C10 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		1A12DEDE29B4474300CF6C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = airheadsFrontend/Assets.xcassets; sourceTree = "<group>"; };
 		29925F2029B319F70004064B /* airheadsFrontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airheadsFrontend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29925F2329B319F70004064B /* airheadsFrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airheadsFrontendApp.swift; sourceTree = "<group>"; };
 		29925F2529B319F70004064B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		29925F2729B319F80004064B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		29925F2A29B319F80004064B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29925F3529B31B910004064B /* ProfileHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHome.swift; sourceTree = "<group>"; };
 		29925F3929B31E660004064B /* RequestRideHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRideHome.swift; sourceTree = "<group>"; };
 		29925F3B29B31E890004064B /* MessageHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHome.swift; sourceTree = "<group>"; };
@@ -77,9 +81,14 @@
 		29925F1729B319F70004064B = {
 			isa = PBXGroup;
 			children = (
-				1A12DECE29B4054800CF6C10 /* ride.swift */,
+				1A12DEDE29B4474300CF6C10 /* Assets.xcassets */,
 				29925F2229B319F70004064B /* airheadsFrontend */,
 				29925F2529B319F70004064B /* ContentView.swift */,
+				1A12DEDC29B4451400CF6C10 /* Media.xcassets */,
+				1A12DED629B4421600CF6C10 /* ProfileView.swift */,
+				1A12DED829B4423300CF6C10 /* SettingsView.swift */,
+				1A12DEDA29B4426100CF6C10 /* UserSettings.swift */,
+				1A12DED429B441E100CF6C10 /* File.swift */,
 				1A12DEC629B344CE00CF6C10 /* GoogleService-Info.plist */,
 				29925F2129B319F70004064B /* Products */,
 				1A12DEC829B3461700CF6C10 /* Frameworks */,
@@ -98,11 +107,9 @@
 		29925F2229B319F70004064B /* airheadsFrontend */ = {
 			isa = PBXGroup;
 			children = (
-				1A12DED029B406A600CF6C10 /* rideViewModel.swift */,
 				1A12DEC929B3EF5500CF6C10 /* Info.plist */,
 				29925F2329B319F70004064B /* airheadsFrontendApp.swift */,
 				29925F3129B31B2B0004064B /* Views */,
-				29925F2729B319F80004064B /* Assets.xcassets */,
 				29925F2929B319F80004064B /* Preview Content */,
 			);
 			path = airheadsFrontend;
@@ -111,7 +118,6 @@
 		29925F2929B319F80004064B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				29925F2A29B319F80004064B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -232,8 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29925F2B29B319F80004064B /* Preview Assets.xcassets in Resources */,
-				29925F2829B319F80004064B /* Assets.xcassets in Resources */,
+				1A12DEDD29B4451400CF6C10 /* Media.xcassets in Resources */,
+				1A12DEDF29B4474300CF6C10 /* Assets.xcassets in Resources */,
 				1A12DEC729B344CE00CF6C10 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,11 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				29925F3C29B31E890004064B /* MessageHome.swift in Sources */,
-				1A12DECF29B4054800CF6C10 /* ride.swift in Sources */,
+				1A12DED929B4423300CF6C10 /* SettingsView.swift in Sources */,
+				1A12DED529B441E100CF6C10 /* File.swift in Sources */,
 				29925F3A29B31E660004064B /* RequestRideHome.swift in Sources */,
+				1A12DEDB29B4426100CF6C10 /* UserSettings.swift in Sources */,
 				29925F2629B319F70004064B /* ContentView.swift in Sources */,
 				29925F2429B319F70004064B /* airheadsFrontendApp.swift in Sources */,
-				1A12DED129B406A600CF6C10 /* rideViewModel.swift in Sources */,
+				1A12DED729B4421600CF6C10 /* ProfileView.swift in Sources */,
 				29925F3629B31B910004064B /* ProfileHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
