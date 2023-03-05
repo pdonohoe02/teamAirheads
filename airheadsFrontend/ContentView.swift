@@ -7,9 +7,9 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     @State private var selection: Tab = .requestRide
-
     enum Tab {
         case requestRide
         case message

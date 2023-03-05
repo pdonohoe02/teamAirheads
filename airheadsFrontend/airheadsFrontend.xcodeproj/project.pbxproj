@@ -16,6 +16,8 @@
 		1A12DEC329B3406A00CF6C10 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1A12DEC229B3406A00CF6C10 /* FirebaseInAppMessagingSwift-Beta */; };
 		1A12DEC529B3406A00CF6C10 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1A12DEC429B3406A00CF6C10 /* FirebaseMessaging */; };
 		1A12DEC729B344CE00CF6C10 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A12DEC629B344CE00CF6C10 /* GoogleService-Info.plist */; };
+		1A12DECF29B4054800CF6C10 /* ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DECE29B4054800CF6C10 /* ride.swift */; };
+		1A12DED129B406A600CF6C10 /* rideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A12DED029B406A600CF6C10 /* rideViewModel.swift */; };
 		29925F2429B319F70004064B /* airheadsFrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F2329B319F70004064B /* airheadsFrontendApp.swift */; };
 		29925F2629B319F70004064B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29925F2529B319F70004064B /* ContentView.swift */; };
 		29925F2829B319F80004064B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29925F2729B319F80004064B /* Assets.xcassets */; };
@@ -28,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		1A12DEC629B344CE00CF6C10 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "airheadsFrontend/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A12DEC929B3EF5500CF6C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1A12DECE29B4054800CF6C10 /* ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ride.swift; sourceTree = "<group>"; };
+		1A12DED029B406A600CF6C10 /* rideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rideViewModel.swift; sourceTree = "<group>"; };
 		29925F2029B319F70004064B /* airheadsFrontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airheadsFrontend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29925F2329B319F70004064B /* airheadsFrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airheadsFrontendApp.swift; sourceTree = "<group>"; };
 		29925F2529B319F70004064B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +77,7 @@
 		29925F1729B319F70004064B = {
 			isa = PBXGroup;
 			children = (
+				1A12DECE29B4054800CF6C10 /* ride.swift */,
 				29925F2229B319F70004064B /* airheadsFrontend */,
 				29925F2529B319F70004064B /* ContentView.swift */,
 				1A12DEC629B344CE00CF6C10 /* GoogleService-Info.plist */,
@@ -92,6 +98,8 @@
 		29925F2229B319F70004064B /* airheadsFrontend */ = {
 			isa = PBXGroup;
 			children = (
+				1A12DED029B406A600CF6C10 /* rideViewModel.swift */,
+				1A12DEC929B3EF5500CF6C10 /* Info.plist */,
 				29925F2329B319F70004064B /* airheadsFrontendApp.swift */,
 				29925F3129B31B2B0004064B /* Views */,
 				29925F2729B319F80004064B /* Assets.xcassets */,
@@ -148,7 +156,6 @@
 				AF23BFB599685252B6DC6B30 /* Pods-airheadsFrontend.debug.xcconfig */,
 				4CB6D714966E100C5BCD6D7A /* Pods-airheadsFrontend.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,9 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				29925F3C29B31E890004064B /* MessageHome.swift in Sources */,
+				1A12DECF29B4054800CF6C10 /* ride.swift in Sources */,
 				29925F3A29B31E660004064B /* RequestRideHome.swift in Sources */,
 				29925F2629B319F70004064B /* ContentView.swift in Sources */,
 				29925F2429B319F70004064B /* airheadsFrontendApp.swift in Sources */,
+				1A12DED129B406A600CF6C10 /* rideViewModel.swift in Sources */,
 				29925F3629B31B910004064B /* ProfileHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +425,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"airheadsFrontend/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = airheadsFrontend/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,6 +455,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"airheadsFrontend/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = airheadsFrontend/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
